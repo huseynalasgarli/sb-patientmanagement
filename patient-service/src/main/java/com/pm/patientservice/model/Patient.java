@@ -21,7 +21,7 @@ public class Patient {
     private String email;
 
     @NotNull
-    private String password;
+    private String address;
 
     @NotNull
     private LocalDate dateOfBirth;
@@ -53,12 +53,12 @@ public class Patient {
         this.email = email;
     }
 
-    public String getPassword() {
-        return password;
+    public String getAddress() {
+        return address;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public void setAddress(String password) {
+        this.address = address;
     }
 
     public LocalDate getDateOfBirth() {
