@@ -57,7 +57,7 @@ public class Patient {
         return address;
     }
 
-    public void setAddress(String password) {
+    public void setAddress(String address) {
         this.address = address;
     }
 
