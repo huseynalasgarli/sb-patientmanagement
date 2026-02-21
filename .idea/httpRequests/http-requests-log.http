@@ -1,3 +1,158 @@
+GET http://localhost:4004/api/patients
+Authorization: Bearer 444trgrht
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+###
+
+GET http://localhost:4004/api/patients
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0dXNlckB0ZXN0LmNvbSIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTc3MTYzMTc2MSwiZXhwIjoxNzcxNjY3NzYxfQ.5ceWK--0963iRZCcekKevZP_sgCditk_-ra-nzJyHDA
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-02-21T035710.200.json
+
+###
+
+GET http://localhost:4004/api/patients
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+###
+
+GET http://localhost:4004/api/patients
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0dXNlckB0ZXN0LmNvbSIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTc3MTYzMTc2MSwiZXhwIjoxNzcxNjY3NzYxfQ.5ceWK--0963iRZCcekKevZP_sgCditk_-ra-nzJyHDA
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-02-21T035653.200.json
+
+###
+
+POST http://localhost:4004/auth/login
+Content-Type: application/json
+Content-Length: 63
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "testuser@test.com",
+  "password": "password123"
+}
+
+<> 2026-02-21T035601.200.json
+
+###
+
+POST http://localhost:4004/auth/login
+Content-Type: application/json
+Content-Length: 63
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "testuser@test.com",
+  "password": "password123"
+}
+
+<> 2026-02-21T025739.200.json
+
+###
+
+POST http://localhost:4004/auth/login
+Content-Type: application/json
+Content-Length: 63
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "testuser@test.com",
+  "password": "password123"
+}
+
+<> 2026-02-21T025721.200.json
+
+###
+
+GET http://localhost:4004/auth/validate
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0dXNlckB0ZXN0LmNvbSIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTc3MTYyODA3OSwiZXhwIjoxNzcxNjY0MDc5fQ.aNpXVTsYuTfM8LQC451H40EN-_UD3X9wt9Q-3HSi27Q
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+###
+
+POST http://localhost:4004/auth/login
+Content-Type: application/json
+Content-Length: 63
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "testuser@test.com",
+  "password": "password123"
+}
+
+<> 2026-02-21T025439.200.json
+
+###
+
+GET http://localhost:4005/validate
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0dXNlckB0ZXN0LmNvbSIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTc3MTYyNzMwMiwiZXhwIjoxNzcxNjYzMzAyfQ.imrWBCOeNDzsDGrjiNX04gUAEIZuZNsa5woRD_4N8mg
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+###
+
+POST http://localhost:4005/login
+Content-Type: application/json
+Content-Length: 63
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "testuser@test.com",
+  "password": "password123"
+}
+
+<> 2026-02-21T024142.200.json
+
+###
+
+GET http://localhost:4005/validate
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0dXNlckB0ZXN0LmNvbSIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTc3MTYyNzIyNSwiZXhwIjoxNzcxNjYzMjI1fQ.5a-KmMw5vHHGJdMqvZ-zIcScISnwQDqz810IUpQtx6Y
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+###
+
+POST http://localhost:4005/login
+Content-Type: application/json
+Content-Length: 63
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "testuser@test.com",
+  "password": "password123"
+}
+
+<> 2026-02-21T024025.200.json
+
+###
+
 POST http://localhost:4005/login
 Content-Type: application/json
 Content-Length: 63
