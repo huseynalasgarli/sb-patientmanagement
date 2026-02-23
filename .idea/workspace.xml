@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11eea53a-ff51-4c52-b009-240f2dfea68f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration-tests/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/test/java/com/pm/apigateway/ApiGatewayApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-requests/auth-service/login.http" beforeDir="false" afterPath="$PROJECT_DIR$/api-requests/auth-service/login.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-requests/auth-service/validate.http" beforeDir="false" afterPath="$PROJECT_DIR$/api-requests/auth-service/validate.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-requests/patient-service/get-patients.http" beforeDir="false" afterPath="$PROJECT_DIR$/api-requests/patient-service/get-patients.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/pm/patientservice/controller/PatientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/patient-service/src/main/java/com/pm/patientservice/controller/PatientController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,61 +71,65 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Docker.analytics-service.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.api-gateway.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.auth-service-db.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.auth-service.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.billing-service.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.kafka.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.patient-service-db.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.patient-service.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.create-billing-account | #1.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.create-patient | GET request to create patient.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.delete-patient | DELETE request to delete patient entity.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.get-patients | GET request to get all patients.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.login | #1.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.update-patient | GET request to create patient.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.update-patient | PUT request to update patient entity.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.validate | GET request to validate token.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.analytics-service [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.analytics-service [compile].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.billing-service [clean,compile].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.billing-service [compile].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.patient-service [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.patient-service [compile].executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.BillingServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.PatientServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/husey/Desktop/+/Spring initializer/patient-management/auth-service&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Docker.analytics-service.executor": "Run",
+    "Docker.api-gateway.executor": "Run",
+    "Docker.auth-service-db.executor": "Run",
+    "Docker.auth-service.executor": "Run",
+    "Docker.billing-service.executor": "Run",
+    "Docker.kafka.executor": "Run",
+    "Docker.patient-service-db.executor": "Run",
+    "Docker.patient-service.executor": "Run",
+    "HTTP Request.create-billing-account | #1.executor": "Run",
+    "HTTP Request.create-patient | GET request to create patient.executor": "Run",
+    "HTTP Request.delete-patient | DELETE request to delete patient entity.executor": "Run",
+    "HTTP Request.get-patients | GET request to get all patients.executor": "Run",
+    "HTTP Request.login | #1.executor": "Run",
+    "HTTP Request.update-patient | GET request to create patient.executor": "Run",
+    "HTTP Request.update-patient | PUT request to update patient entity.executor": "Run",
+    "HTTP Request.validate | GET request to validate token.executor": "Run",
+    "JUnit.AuthIntegrationTests.executor": "Run",
+    "JUnit.AuthIntegrationTests.shouldReturnOKWithValidToken.executor": "Run",
+    "JUnit.AuthIntegrationTests.shouldReturnUnauthorizedWithInvalidToken.executor": "Run",
+    "JUnit.PatientIntegrationTests.executor": "Run",
+    "Maven.analytics-service [clean].executor": "Run",
+    "Maven.analytics-service [compile].executor": "Run",
+    "Maven.billing-service [clean,compile].executor": "Run",
+    "Maven.billing-service [compile].executor": "Run",
+    "Maven.patient-service [clean].executor": "Run",
+    "Maven.patient-service [compile].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.BillingServiceApplication.executor": "Run",
+    "Spring Boot.PatientServiceApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/husey/Desktop/+/Spring initializer/patient-management/auth-service",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\husey\Desktop\+\Spring initializer\patient-management\auth-service" />
@@ -162,21 +165,47 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Docker.api-gateway">
-    <configuration name="create-billing-account | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/grpc-requests/billing-service/create-billing-account.http" executionIdentifier="#1" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="create-patient | GET request to create patient" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-requests/patient-service/create-patient.http" executionIdentifier="GET request to create patient" runType="Run single request">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JUnit.PatientIntegrationTests">
     <configuration name="get-patients | GET request to get all patients" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-requests/patient-service/get-patients.http" executionIdentifier="GET request to get all patients" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="login | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-requests/auth-service/login.http" executionIdentifier="#1" runType="Run single request">
-      <method v="2" />
+    <configuration name="AuthIntegrationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="integration-tests" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AuthIntegrationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="validate | GET request to validate token" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-requests/auth-service/validate.http" executionIdentifier="GET request to validate token" runType="Run single request">
-      <method v="2" />
+    <configuration name="AuthIntegrationTests.shouldReturnOKWithValidToken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="integration-tests" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AuthIntegrationTests" />
+      <option name="METHOD_NAME" value="shouldReturnOKWithValidToken" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthIntegrationTests.shouldReturnUnauthorizedWithInvalidToken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="integration-tests" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AuthIntegrationTests" />
+      <option name="METHOD_NAME" value="shouldReturnUnauthorizedWithInvalidToken" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PatientIntegrationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="integration-tests" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PatientIntegrationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
@@ -549,11 +578,11 @@
       <item itemvalue="Docker.kafka" />
       <item itemvalue="Docker.patient-service-db" />
       <item itemvalue="Docker.auth-service-db" />
-      <item itemvalue="HTTP Request.validate | GET request to validate token" />
-      <item itemvalue="HTTP Request.login | #1" />
-      <item itemvalue="HTTP Request.create-patient | GET request to create patient" />
-      <item itemvalue="HTTP Request.create-billing-account | #1" />
       <item itemvalue="HTTP Request.get-patients | GET request to get all patients" />
+      <item itemvalue="JUnit.AuthIntegrationTests" />
+      <item itemvalue="JUnit.AuthIntegrationTests.shouldReturnOKWithValidToken" />
+      <item itemvalue="JUnit.AuthIntegrationTests.shouldReturnUnauthorizedWithInvalidToken" />
+      <item itemvalue="JUnit.PatientIntegrationTests" />
       <item itemvalue="Spring Boot.AuthServiceApplication" />
       <item itemvalue="Spring Boot.ApiGatewayApplication" />
       <item itemvalue="Spring Boot.AnalyticsServiceApplication" />
@@ -562,11 +591,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PatientIntegrationTests" />
+        <item itemvalue="JUnit.AuthIntegrationTests.shouldReturnUnauthorizedWithInvalidToken" />
+        <item itemvalue="JUnit.AuthIntegrationTests.shouldReturnOKWithValidToken" />
+        <item itemvalue="JUnit.AuthIntegrationTests" />
         <item itemvalue="HTTP Request.get-patients | GET request to get all patients" />
-        <item itemvalue="HTTP Request.login | #1" />
-        <item itemvalue="HTTP Request.validate | GET request to validate token" />
-        <item itemvalue="HTTP Request.create-patient | GET request to create patient" />
-        <item itemvalue="HTTP Request.create-billing-account | #1" />
       </list>
     </recent_temporary>
   </component>
@@ -607,6 +636,8 @@
       <workItem from="1771340435151" duration="10023000" />
       <workItem from="1771525427598" duration="5235000" />
       <workItem from="1771627139465" duration="5186000" />
+      <workItem from="1771700981398" duration="19000" />
+      <workItem from="1771783071810" duration="6758000" />
     </task>
     <servers />
   </component>
