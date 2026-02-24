@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11eea53a-ff51-4c52-b009-240f2dfea68f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/integration-tests/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/pm/patientservice/controller/PatientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/patient-service/src/main/java/com/pm/patientservice/controller/PatientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-requests/auth-service/login.http" beforeDir="false" afterPath="$PROJECT_DIR$/api-requests/auth-service/login.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-requests/patient-service/create-patient.http" beforeDir="false" afterPath="$PROJECT_DIR$/api-requests/patient-service/create-patient.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-requests/patient-service/get-patients.http" beforeDir="false" afterPath="$PROJECT_DIR$/api-requests/patient-service/get-patients.http" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +76,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.LocalStack.executor": "Run",
     "Docker.analytics-service.executor": "Run",
     "Docker.api-gateway.executor": "Run",
     "Docker.auth-service-db.executor": "Run",
@@ -121,7 +125,7 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "settings.sync",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -165,38 +169,30 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PatientIntegrationTests">
+  <component name="RunManager" selected="HTTP Request.create-patient | GET request to create patient">
+    <configuration name="LocalStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pm.stack.LocalStack" />
+      <module name="infrastructure" />
+      <shortenClasspath name="ARGS_FILE" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/infrastructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pm.stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="create-patient | GET request to create patient" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-requests/patient-service/create-patient.http" executionIdentifier="GET request to create patient" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="get-patients | GET request to get all patients" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-requests/patient-service/get-patients.http" executionIdentifier="GET request to get all patients" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="AuthIntegrationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="integration-tests" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AuthIntegrationTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AuthIntegrationTests.shouldReturnOKWithValidToken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="integration-tests" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AuthIntegrationTests" />
-      <option name="METHOD_NAME" value="shouldReturnOKWithValidToken" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AuthIntegrationTests.shouldReturnUnauthorizedWithInvalidToken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="integration-tests" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AuthIntegrationTests" />
-      <option name="METHOD_NAME" value="shouldReturnUnauthorizedWithInvalidToken" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="login | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-requests/auth-service/login.http" executionIdentifier="#1" runType="Run single request">
+      <method v="2" />
     </configuration>
     <configuration name="PatientIntegrationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="integration-tests" />
@@ -570,6 +566,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.LocalStack" />
       <item itemvalue="Docker.auth-service" />
       <item itemvalue="Docker.api-gateway" />
       <item itemvalue="Docker.analytics-service" />
@@ -578,10 +575,9 @@
       <item itemvalue="Docker.kafka" />
       <item itemvalue="Docker.patient-service-db" />
       <item itemvalue="Docker.auth-service-db" />
+      <item itemvalue="HTTP Request.create-patient | GET request to create patient" />
       <item itemvalue="HTTP Request.get-patients | GET request to get all patients" />
-      <item itemvalue="JUnit.AuthIntegrationTests" />
-      <item itemvalue="JUnit.AuthIntegrationTests.shouldReturnOKWithValidToken" />
-      <item itemvalue="JUnit.AuthIntegrationTests.shouldReturnUnauthorizedWithInvalidToken" />
+      <item itemvalue="HTTP Request.login | #1" />
       <item itemvalue="JUnit.PatientIntegrationTests" />
       <item itemvalue="Spring Boot.AuthServiceApplication" />
       <item itemvalue="Spring Boot.ApiGatewayApplication" />
@@ -591,11 +587,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PatientIntegrationTests" />
-        <item itemvalue="JUnit.AuthIntegrationTests.shouldReturnUnauthorizedWithInvalidToken" />
-        <item itemvalue="JUnit.AuthIntegrationTests.shouldReturnOKWithValidToken" />
-        <item itemvalue="JUnit.AuthIntegrationTests" />
+        <item itemvalue="HTTP Request.create-patient | GET request to create patient" />
         <item itemvalue="HTTP Request.get-patients | GET request to get all patients" />
+        <item itemvalue="HTTP Request.login | #1" />
+        <item itemvalue="Application.LocalStack" />
+        <item itemvalue="JUnit.PatientIntegrationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -637,7 +633,8 @@
       <workItem from="1771525427598" duration="5235000" />
       <workItem from="1771627139465" duration="5186000" />
       <workItem from="1771700981398" duration="19000" />
-      <workItem from="1771783071810" duration="6758000" />
+      <workItem from="1771783071810" duration="7553000" />
+      <workItem from="1771872927907" duration="17575000" />
     </task>
     <servers />
   </component>
