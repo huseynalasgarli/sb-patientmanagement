@@ -559,5 +559,3 @@ For issues and questions:
 - [PostgreSQL Documentation](https://www.postgresql.org/docs/)
 
 ---
-
-**Built with ❤️ using Spring Boot and Microservices Architecture**
