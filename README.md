@@ -557,5 +557,3 @@ For issues and questions:
 - [Apache Kafka](https://kafka.apache.org/documentation/)
 - [Docker Documentation](https://docs.docker.com/)
 - [PostgreSQL Documentation](https://www.postgresql.org/docs/)
-
----
