@@ -518,23 +518,6 @@ service-name/
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 👥 Team
-
-- **Backend Development**: Spring Boot Microservices
-- **DevOps**: Docker & Kubernetes
-- **Database**: PostgreSQL Administration
-- **Security**: Authentication & Authorization
-
-## 📞 Support
-
-For issues and questions:
-- Create an issue in the repository
-- Contact the development team
-- Check the documentation
 
 ## 🎯 Future Enhancements
 
